@@ -34,8 +34,6 @@ unsigned long get_fattime(void)
 
 int main(void)
 {
-    iap_status_t result;
-
     /* Configure NVIC */
     nvic_priority_group_set(NVIC_PRIGROUP_PRE4_SUB0);
 
@@ -48,16 +46,31 @@ int main(void)
     /* 等待系统稳定 */
     delay_1ms(1000);
 
-    /* 检查是否存在固件文件 */
-    if (iap_check_firmware_file(IAP_FIRMWARE_PATH)) {
-        /* 执行升级 */
-        result = iap_perform_upgrade(IAP_FIRMWARE_PATH);
-
-        if (result == IAP_RESULT_OK) {
-            /* 升级成功，设置标志并重启 */
-            iap_trigger_bootloader();
+    /* 初始化SD卡并挂载文件系统（必须在文件操作前完成） */
+    if (!iap_sd_init_and_mount()) {
+        /* SD卡初始化失败，进入正常应用运行 */
+        while (1) {
+            /* 正常应用运行（无SD卡） */
         }
     }
+
+    /* 执行SD卡自检：创建测试文件、写入、读回比对 */
+    if (!iap_sd_selftest()) {
+        /* 自检失败但仍可继续尝试升级 */
+    }
+
+    /* 检查是否存在固件文件 */
+    if (iap_check_firmware_file(IAP_FIRMWARE_PATH)) {
+        /* 固件文件存在，设置IAP标志并复位 */
+        /* BootLoader 将在复位后执行实际的 Flash 写入 */
+        iap_trigger_bootloader();
+        
+        /* 不会执行到这里 */
+        while (1);
+    }
+
+    /* 卸载SD卡 */
+    iap_sd_deinit();
 
     /* 主循环 */
     while (1) {

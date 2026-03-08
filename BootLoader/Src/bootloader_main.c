@@ -20,7 +20,7 @@
 #include <stdio.h>
 
 /* ========== 测试模式配置 ========== */
-#define BOOTLOADER_TEST_MODE        1   /* 1: 启用分步测试模式 */
+#define BOOTLOADER_TEST_MODE        0   /* 0: 正常IAP模式, 1: 分步测试模式 */
 #define TEST_SD_CARD                1   /* 测试SD卡基本功能 */
 #define TEST_FLASH_ERASE_WRITE      1   /* 测试Flash擦写 */
 #define TEST_JUMP_TO_APP            1   /* 测试跳转到APP */

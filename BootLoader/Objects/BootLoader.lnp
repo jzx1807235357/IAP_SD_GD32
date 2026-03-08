@@ -6,7 +6,6 @@
 ".\objects\sdcard.o"
 ".\objects\diskio.o"
 ".\objects\ff.o"
-".\objects\ymodem.o"
 ".\objects\sd_iap.o"
 ".\objects\delay.o"
 ".\objects\debug_uart.o"

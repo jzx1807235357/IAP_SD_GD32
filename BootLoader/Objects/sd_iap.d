@@ -2,7 +2,6 @@
 .\objects\sd_iap.o: .\\Inc\sd_iap.h
 .\objects\sd_iap.o: D:\Keil5.27\Core\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\sd_iap.o: D:\Keil5.27\Core\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\sd_iap.o: .\\Inc\ymodem.h
 .\objects\sd_iap.o: .\\Inc\sdcard.h
 .\objects\sd_iap.o: .\\Drivers\\CMSIS\\Device\\Include\gd32f4xx.h
 .\objects\sd_iap.o: .\\Drivers\\CMSIS\\Include\core_cm4.h

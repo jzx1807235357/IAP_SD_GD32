@@ -38,7 +38,6 @@
 .\objects\bootloader_main.o: D:\Keil5.27\Core\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\bootloader_main.o: .\\Inc\sd_iap.h
 .\objects\bootloader_main.o: D:\Keil5.27\Core\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\bootloader_main.o: .\\Inc\ymodem.h
 .\objects\bootloader_main.o: .\\Inc\sdcard.h
 .\objects\bootloader_main.o: .\\Inc\ff.h
 .\objects\bootloader_main.o: .\\Inc\ffconf.h

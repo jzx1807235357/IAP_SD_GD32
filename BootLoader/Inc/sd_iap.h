@@ -2,7 +2,7 @@
  * @file    sd_iap.h
  * @brief   SD卡IAP升级模块头文件
  * 
- * 基于SD卡和Ymodem协议的IAP在线升级功能
+ * 直接从SD卡读取原始binary固件并写入Flash
  */
 
 #ifndef SD_IAP_H
@@ -10,7 +10,6 @@
 
 #include <stdint.h>
 #include <stdbool.h>
-#include "ymodem.h"
 
 /* IAP状态枚举 */
 typedef enum {
@@ -35,7 +34,6 @@ typedef struct {
 /* SD-IAP句柄 */
 typedef struct {
     sd_iap_status_t status;         /* 当前状态 */
-    ymodem_handle_t ymodem;         /* Ymodem句柄 */
     uint32_t firmware_size;         /* 固件大小 */
     uint32_t bytes_written;         /* 已写入字节数 */
     uint8_t  progress;              /* 进度百分比 */
