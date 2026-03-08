@@ -155,12 +155,20 @@ static void bootloader_jump_to_application(void)
 
     if ((app_stack == 0xFFFFFFFFU) || (app_reset == 0xFFFFFFFFU))
     {
+        printf("APP invalid: stack=0x%08lX, reset=0x%08lX\r\n", 
+               (unsigned long)app_stack, (unsigned long)app_reset);
         while (1)
         {
             __NOP();
         }
     }
 
+    printf("\r\n========================================\r\n");
+    printf("Jump to APP @ 0x%08lX\r\n", (unsigned long)APPLICATION_START_ADDRESS);
+    printf("Stack: 0x%08lX, Reset: 0x%08lX\r\n", 
+           (unsigned long)app_stack, (unsigned long)app_reset);
+    printf("========================================\r\n\r\n");
+    
     /* 关闭所有中断 */
     __disable_irq();
     

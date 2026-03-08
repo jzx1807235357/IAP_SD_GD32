@@ -15,6 +15,7 @@
 #include "gd32f4xx.h"
 #include "gd32f4xx_misc.h"
 #include "systick.h"
+#include "debug_uart.h"
 #include <stdio.h>
 #include <stdbool.h>
 #include "iap_update.h"
@@ -39,6 +40,16 @@ int main(void)
 
     /* Initialize systick */
     systick_config();
+    
+    /* Initialize debug UART for printf */
+    debug_uart_init();
+    
+    printf("\r\n========================================\r\n");
+    printf("APP Start (USART0 Debug)\r\n");
+    printf("Base: 0x%08lX, Size: %lu KB\r\n", 
+           (unsigned long)APPLICATION_START_ADDRESS, 
+           (unsigned long)(APPLICATION_SIZE / 1024));
+    printf("========================================\r\n");
 
     /* 初始化IAP模块 */
     iap_update_init();
