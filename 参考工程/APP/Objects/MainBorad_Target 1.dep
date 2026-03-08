@@ -1,0 +1,1708 @@
+Dependencies for Project 'MainBorad', Target 'Target 1': (DO NOT MODIFY !)
+F (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Source\ARM\startup_gd32f405_425.s)(0x691ABAC5)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527" --pd "GD32F425 SETA 1"--list .\listings\startup_gd32f405_425.lst --xref -o .\objects\startup_gd32f405_425.o --depend .\objects\startup_gd32f405_425.d)
+F (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c)(0x691AC15F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\system_gd32f4xx.o --omf_browse .\objects\system_gd32f4xx.crf --depend .\objects\system_gd32f4xx.d)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\FreeRTOS_Core\tasks.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (FreeRTOS_Core\task.h)(0x691ABAC4)
+I (FreeRTOS_Core\list.h)(0x691ABAC4)
+I (FreeRTOS_Core\timers.h)(0x691ABAC4)
+I (FreeRTOS_Core\stack_macros.h)(0x691ABAC4)
+F (.\FreeRTOS_Core\queue.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (FreeRTOS_Core\task.h)(0x691ABAC4)
+I (FreeRTOS_Core\list.h)(0x691ABAC4)
+I (FreeRTOS_Core\queue.h)(0x691ABAC4)
+F (.\FreeRTOS_Core\list.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (FreeRTOS_Core\list.h)(0x691ABAC4)
+F (.\FreeRTOS_Core\timers.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (FreeRTOS_Core\task.h)(0x691ABAC4)
+I (FreeRTOS_Core\list.h)(0x691ABAC4)
+I (FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (FreeRTOS_Core\timers.h)(0x691ABAC4)
+F (.\FreeRTOS_Core\event_groups.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (FreeRTOS_Core\task.h)(0x691ABAC4)
+I (FreeRTOS_Core\list.h)(0x691ABAC4)
+I (FreeRTOS_Core\timers.h)(0x691ABAC4)
+I (FreeRTOS_Core\event_groups.h)(0x691ABAC4)
+F (.\FreeRTOS_Port\port.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+F (.\FreeRTOS_MemMang\heap_4.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+F (.\Core\Src\main.c)(0x69AB733F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\Core\Inc\rs485_hal.h)(0x69281C8C)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\rs485_config.h)(0x69280CF5)
+I (.\Core\Inc\light_sensor.h)(0x6922FDC4)
+I (.\Core\Inc\host_comm.h)(0x69AAE53C)
+I (.\Core\Inc\modbus_rtu.h)(0x697E47A0)
+I (.\Core\Inc\gimbal_control.h)(0x6950C16B)
+I (.\Core\Inc\optical_tracking.h)(0x692803DB)
+I (.\Core\Inc\flash_config.h)(0x697E476A)
+I (.\Core\Inc\gd25q16_flash.h)(0x691ABAC4)
+I (.\Core\Inc\data_hub.h)(0x697F721E)
+I (.\FreeRTOS_Core\event_groups.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\timers.h)(0x691ABAC4)
+I (.\Core\Inc\gps_nmea.h)(0x691ABAC4)
+I (.\Core\Inc\sun_position.h)(0x69802974)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\Core\Inc\sun_position_port.h)(0x697E3F1B)
+I (.\Core\Inc\app_watchdog.h)(0x69AAE53A)
+I (.\Core\Inc\sd_logger.h)(0x697F7287)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\math.h)(0x599ECD2E)
+F (.\Core\Src\gd32f4xx_it.c)(0x695371D1)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_it.o --omf_browse .\objects\gd32f4xx_it.crf --depend .\objects\gd32f4xx_it.d)
+I (.\Core\Inc\gd32f4xx_it.h)(0x691E8F8D)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\Core\Inc\main.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\Core\Inc\light_sensor.h)(0x6922FDC4)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\Core\Inc\host_comm.h)(0x69AAE53C)
+I (.\Core\Inc\modbus_rtu.h)(0x697E47A0)
+I (.\Core\Inc\gps_nmea.h)(0x691ABAC4)
+I (.\Core\Inc\gimbal_control.h)(0x6950C16B)
+I (.\Core\Inc\sd_logger.h)(0x697F7287)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\Core\Inc\sdcard.h)(0x691E8FA5)
+I (.\Core\Inc\rs485_config.h)(0x69280CF5)
+I (.\Core\Inc\rs485_hal.h)(0x69281C8C)
+F (.\Core\Src\systick.c)(0x695371D1)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+F (.\Core\Src\light_sensor.c)(0x69280CF5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\light_sensor.o --omf_browse .\objects\light_sensor.crf --depend .\objects\light_sensor.d)
+I (.\Core\Inc\light_sensor.h)(0x6922FDC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\rs485_hal.h)(0x69281C8C)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\Core\Inc\main.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\Core\Src\pcf8563.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\pcf8563.o --omf_browse .\objects\pcf8563.crf --depend .\objects\pcf8563.d)
+I (.\Core\Inc\pcf8563.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\Core\Src\host_comm.c)(0x69AB6F74)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\host_comm.o --omf_browse .\objects\host_comm.crf --depend .\objects\host_comm.d)
+I (.\Core\Inc\host_comm.h)(0x69AAE53C)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\Core\Inc\modbus_rtu.h)(0x697E47A0)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\Core\Inc\rs485_hal.h)(0x69281C8C)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\Core\Inc\gimbal_control.h)(0x6950C16B)
+I (.\Core\Inc\flash_config.h)(0x697E476A)
+I (.\Core\Inc\sun_position.h)(0x69802974)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\Core\Inc\sd_logger.h)(0x697F7287)
+I (.\Core\Inc\iap_shared.h)(0x691ABAC6)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\math.h)(0x599ECD2E)
+F (.\Core\Src\modbus_rtu.c)(0x6944F2AF)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\modbus_rtu.o --omf_browse .\objects\modbus_rtu.crf --depend .\objects\modbus_rtu.d)
+I (.\Core\Inc\modbus_rtu.h)(0x697E47A0)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\rs485_hal.h)(0x69281C8C)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\Core\Inc\rs485_config.h)(0x69280CF5)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\Core\Inc\main.h)(0x691ABAC4)
+I (.\Core\Inc\light_sensor.h)(0x6922FDC4)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\Core\Inc\iap_shared.h)(0x691ABAC6)
+I (.\Core\Inc\sd_logger.h)(0x697F7287)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\Core\Src\gimbal_control.c)(0x697B32CC)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gimbal_control.o --omf_browse .\objects\gimbal_control.crf --depend .\objects\gimbal_control.d)
+I (.\Core\Inc\gimbal_control.h)(0x6950C16B)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\rs485_hal.h)(0x69281C8C)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\Core\Inc\main.h)(0x691ABAC4)
+I (.\Core\Inc\light_sensor.h)(0x6922FDC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\Core\Src\optical_tracking.c)(0x69AB6F74)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\optical_tracking.o --omf_browse .\objects\optical_tracking.crf --depend .\objects\optical_tracking.d)
+I (.\Core\Inc\optical_tracking.h)(0x692803DB)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\light_sensor.h)(0x6922FDC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\Core\Inc\sun_position.h)(0x69802974)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\Core\Inc\gimbal_control.h)(0x6950C16B)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\Core\Inc\gps_nmea.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\Core\Inc\modbus_rtu.h)(0x697E47A0)
+I (.\Core\Inc\flash_config.h)(0x697E476A)
+I (.\Core\Inc\data_hub.h)(0x697F721E)
+I (.\FreeRTOS_Core\event_groups.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\timers.h)(0x691ABAC4)
+I (.\Core\Inc\host_comm.h)(0x69AAE53C)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\Core\Src\flash_config.c)(0x69AB733F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\flash_config.o --omf_browse .\objects\flash_config.crf --depend .\objects\flash_config.d)
+I (.\Core\Inc\flash_config.h)(0x697E476A)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Core\Inc\optical_tracking.h)(0x692803DB)
+I (.\Core\Inc\gd25q16_flash.h)(0x691ABAC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\math.h)(0x599ECD2E)
+F (.\Core\Src\gd25q16_flash.c)(0x69AAE53C)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd25q16_flash.o --omf_browse .\objects\gd25q16_flash.crf --depend .\objects\gd25q16_flash.d)
+I (.\Core\Inc\gd25q16_flash.h)(0x691ABAC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+F (.\Core\Src\data_hub.c)(0x697F722F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\data_hub.o --omf_browse .\objects\data_hub.crf --depend .\objects\data_hub.d)
+I (.\Core\Inc\data_hub.h)(0x697F721E)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\event_groups.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\timers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\Core\Inc\light_sensor.h)(0x6922FDC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\Core\Src\gps_nmea.c)(0x6926C66F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gps_nmea.o --omf_browse .\objects\gps_nmea.crf --depend .\objects\gps_nmea.d)
+I (.\Core\Inc\gps_nmea.h)(0x691ABAC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\Core\Src\sun_position.c)(0x69802956)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\sun_position.o --omf_browse .\objects\sun_position.crf --depend .\objects\sun_position.d)
+I (.\Core\Inc\sun_position.h)(0x69802974)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\Core\Inc\sun_position_psa.h)(0x698022A3)
+I (.\Core\Inc\sun_position_port.h)(0x697E3F1B)
+I (.\Core\Inc\flash_config.h)(0x697E476A)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+F (.\Core\Src\rs485_hal.c)(0x69281C8C)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\rs485_hal.o --omf_browse .\objects\rs485_hal.crf --depend .\objects\rs485_hal.d)
+I (.\Core\Inc\rs485_hal.h)(0x69281C8C)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\rs485_config.h)(0x69280CF5)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\Core\Src\sd_logger.c)(0x697F72B7)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\sd_logger.o --omf_browse .\objects\sd_logger.crf --depend .\objects\sd_logger.d)
+I (.\Core\Inc\sd_logger.h)(0x697F7287)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\FatFs\Third_Party\fat_fs\inc\ff.h)(0x691ABAC4)
+I (.\FatFs\Third_Party\fat_fs\inc\ffconf.h)(0x691F110D)
+I (.\FatFs\Third_Party\fat_fs\inc\integer.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\Core\Inc\sun_position.h)(0x69802974)
+I (.\Core\Inc\sdcard.h)(0x691E8FA5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\Core\Inc\host_comm.h)(0x69AAE53C)
+I (.\Core\Inc\modbus_rtu.h)(0x697E47A0)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+F (.\Core\Src\sdcard.c)(0x6927A75F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\sdcard.o --omf_browse .\objects\sdcard.crf --depend .\objects\sdcard.d)
+I (.\Core\Inc\sdcard.h)(0x691E8FA5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+F (.\Core\Src\sun_position_psa.c)(0x69803B6A)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\sun_position_psa.o --omf_browse .\objects\sun_position_psa.crf --depend .\objects\sun_position_psa.d)
+I (.\Core\Inc\sun_position_psa.h)(0x698022A3)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\math.h)(0x599ECD2E)
+F (.\Core\Src\sun_position_port.c)(0x697E3F4F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\sun_position_port.o --omf_browse .\objects\sun_position_port.crf --depend .\objects\sun_position_port.d)
+I (.\Core\Inc\sun_position_port.h)(0x697E3F1B)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Core\Inc\gps_nmea.h)(0x691ABAC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\Core\Inc\flash_config.h)(0x697E476A)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+I (.\Core\Inc\systick.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\Core\Src\app_watchdog.c)(0x69AAE53B)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\app_watchdog.o --omf_browse .\objects\app_watchdog.crf --depend .\objects\app_watchdog.d)
+I (.\Core\Inc\app_watchdog.h)(0x69AAE53A)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+F (.\FatFs\Third_Party\fat_fs\src\ff.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (.\FatFs\Third_Party\fat_fs\inc\ff.h)(0x691ABAC4)
+I (.\FatFs\Third_Party\fat_fs\inc\ffconf.h)(0x691F110D)
+I (.\FatFs\Third_Party\fat_fs\inc\integer.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\FatFs\Third_Party\fat_fs\inc\diskio.h)(0x691ABAC4)
+F (.\FatFs\Third_Party\fat_fs\src\ffunicode.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\ffunicode.o --omf_browse .\objects\ffunicode.crf --depend .\objects\ffunicode.d)
+I (.\FatFs\Third_Party\fat_fs\inc\ff.h)(0x691ABAC4)
+I (.\FatFs\Third_Party\fat_fs\inc\ffconf.h)(0x691F110D)
+I (.\FatFs\Third_Party\fat_fs\inc\integer.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+F (.\FatFs\Third_Party\fat_fs\src\diskio.c)(0x691F27DB)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (.\FatFs\Third_Party\fat_fs\inc\diskio.h)(0x691ABAC4)
+I (.\FatFs\Third_Party\fat_fs\inc\ff.h)(0x691ABAC4)
+I (.\FatFs\Third_Party\fat_fs\inc\ffconf.h)(0x691F110D)
+I (.\FatFs\Third_Party\fat_fs\inc\integer.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\FreeRTOS_Core\FreeRTOS.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\Config\FreeRTOSConfig.h)(0x692706F6)
+I (.\FreeRTOS_Core\projdefs.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\portable.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\deprecated_definitions.h)(0x691ABAC4)
+I (.\FreeRTOS_Port\portmacro.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\mpu_wrappers.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\semphr.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\queue.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\task.h)(0x691ABAC4)
+I (.\FreeRTOS_Core\list.h)(0x691ABAC4)
+I (.\Core\Inc\sdcard.h)(0x691E8FA5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\FatFs\Third_Party\fat_fs\src\fattime.c)(0x691ABAC4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\fattime.o --omf_browse .\objects\fattime.crf --depend .\objects\fattime.d)
+I (.\FatFs\Third_Party\fat_fs\inc\integer.h)(0x691ABAC4)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (.\FatFs\Third_Party\fat_fs\inc\fattime.h)(0x691ABAC4)
+I (.\Core\Inc\app_rtc.h)(0x691ABAC4)
+F (.\GD32_Drivers\Src\gd32f4xx_gpio.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_gpio.o --omf_browse .\objects\gd32f4xx_gpio.crf --depend .\objects\gd32f4xx_gpio.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_rcu.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_rcu.o --omf_browse .\objects\gd32f4xx_rcu.crf --depend .\objects\gd32f4xx_rcu.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_misc.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_misc.o --omf_browse .\objects\gd32f4xx_misc.crf --depend .\objects\gd32f4xx_misc.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_usart.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_usart.o --omf_browse .\objects\gd32f4xx_usart.crf --depend .\objects\gd32f4xx_usart.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_dma.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_dma.o --omf_browse .\objects\gd32f4xx_dma.crf --depend .\objects\gd32f4xx_dma.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_timer.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_timer.o --omf_browse .\objects\gd32f4xx_timer.crf --depend .\objects\gd32f4xx_timer.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_fmc.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_fmc.o --omf_browse .\objects\gd32f4xx_fmc.crf --depend .\objects\gd32f4xx_fmc.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_crc.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_crc.o --omf_browse .\objects\gd32f4xx_crc.crf --depend .\objects\gd32f4xx_crc.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_exti.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_exti.o --omf_browse .\objects\gd32f4xx_exti.crf --depend .\objects\gd32f4xx_exti.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_syscfg.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_syscfg.o --omf_browse .\objects\gd32f4xx_syscfg.crf --depend .\objects\gd32f4xx_syscfg.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_i2c.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_i2c.o --omf_browse .\objects\gd32f4xx_i2c.crf --depend .\objects\gd32f4xx_i2c.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_spi.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_spi.o --omf_browse .\objects\gd32f4xx_spi.crf --depend .\objects\gd32f4xx_spi.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_sdio.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_sdio.o --omf_browse .\objects\gd32f4xx_sdio.crf --depend .\objects\gd32f4xx_sdio.d)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32_Drivers\Src\gd32f4xx_pmu.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_pmu.o --omf_browse .\objects\gd32f4xx_pmu.crf --depend .\objects\gd32f4xx_pmu.d)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)
+F (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c)(0x691ABAC5)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\FreeRTOS_Core -I .\FreeRTOS_Port -I .\Config -I .\Core\Inc -I .\Core\Src -I .\GD32_Drivers\Inc -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS -I .\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include -I .\FatFs\Third_Party\fat_fs\inc-I.\RTE\_Target_1-ID:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include-ID:\Keil5.27\Core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32F425 -DUSE_STDPERIPH_DRIVER -DGD32F425-o .\objects\gd32f4xx_fwdgt.o --omf_browse .\objects\gd32f4xx_fwdgt.crf --depend .\objects\gd32f4xx_fwdgt.d)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4.h)(0x691ABAC5)
+I (D:\Keil5.27\Core\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmInstr.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cmFunc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\core_cm4_simd.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x691ABAC5)
+I (.\Core\Inc\gd32f4xx_libopt.h)(0x691ABAC4)
+I (.\GD32_Drivers\Inc\gd32f4xx_rcu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_crc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_dma.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_exti.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_fmc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_gpio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_syscfg.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_i2c.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_sdio.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_spi.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_timer.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_usart.h)(0x691ABAC5)
+I (.\GD32F4xx_Firmware_Library_V3.3.1\GD32F4xx_Firmware_Library\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x691ABAC5)
+I (.\GD32_Drivers\Inc\gd32f4xx_misc.h)(0x691ABAC5)

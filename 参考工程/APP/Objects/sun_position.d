@@ -1,0 +1,10 @@
+.\objects\sun_position.o: Core\Src\sun_position.c
+.\objects\sun_position.o: .\Core\Inc\sun_position.h
+.\objects\sun_position.o: D:\Keil5.27\Core\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\sun_position.o: D:\Keil5.27\Core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sun_position.o: .\Core\Inc\app_rtc.h
+.\objects\sun_position.o: .\Core\Inc\sun_position_psa.h
+.\objects\sun_position.o: .\Core\Inc\sun_position_port.h
+.\objects\sun_position.o: .\Core\Inc\flash_config.h
+.\objects\sun_position.o: D:\Keil5.27\Core\ARM\ARMCC\Bin\..\include\math.h
+.\objects\sun_position.o: D:\Keil5.27\Core\ARM\ARMCC\Bin\..\include\stdlib.h

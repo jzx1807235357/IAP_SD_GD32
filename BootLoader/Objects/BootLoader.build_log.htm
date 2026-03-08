@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jiang jiang, jiang, LIC=DSNXV-PMRZV-QIB5M-XUUUF-XSR4V-7KY15
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.27.1.0
+Toolchain Path:  D:\Keil5.27\Core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      CMSIS_AGDI.dll V1.31.17.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\18072\Desktop\¹â×·ÏîÄ¿\IAP\BootLoader\BootLoader.uvprojx
+Project File Date:  03/08/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil5.27\Core\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling gd32f4xx_syscfg.c...
+compiling gd32f4xx_exti.c...
+compiling bootloader_main.c...
+.\Inc\delay.h(10): warning:  #1295-D: Deprecated declaration systick_config - give arg types
+  void delay_init(uint32_t sysclk_hz);
+Src\bootloader_main.c(189): warning:  #177-D: function "bootloader_enter_sd_iap_mode"  was declared but never referenced
+  static void bootloader_enter_sd_iap_mode(void)
+Src\bootloader_main.c: 2 warnings, 0 errors
+compiling sdcard.c...
+linking...
+Program Size: Code=19100 RO-data=648 RW-data=68 ZI-data=1060  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\Objects\BootLoader.bin .\Objects\BootLoader.axf
+".\Objects\BootLoader.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/GigaDevice.GD32F4xx_DFP.3.4.0.pack
+                GigaDevice.GD32F4xx_DFP.3.4.0
+                GigaDevice GD32F4xx Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil5.27\Pack\GigaDevice\GD32F4xx_DFP\3.4.0\Device\F4XX\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
