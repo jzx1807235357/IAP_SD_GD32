@@ -7,6 +7,7 @@
 
 #include "diskio.h"
 #include "sdcard.h"
+#include <string.h>
 
 /* SD卡状态 */
 static volatile DSTATUS Stat = STA_NOINIT;
@@ -16,18 +17,37 @@ static volatile DSTATUS Stat = STA_NOINIT;
 /*-----------------------------------------------------------------------*/
 DSTATUS disk_initialize(BYTE pdrv)
 {
+    sd_error_enum status;
+    sd_card_info_struct card_info;
+ 
     if (pdrv != 0) {
         return STA_NOINIT;
     }
-
+ 
     /* 物理无卡：标记为未初始化+无卡 */
     if (!sd_card_detect_pin_read()) {
         Stat = STA_NOINIT | STA_NODISK;
         return Stat;
     }
-
-    /* 真正的 SD 初始化和挂载已经在 sd_logger_init/sd_init_internal 里做完，
-       这里只负责让 FatFs 认为驱动准备好了 */
+ 
+    status = sd_init();
+    if (status != SD_OK) {
+        Stat = STA_NOINIT;
+        return Stat;
+    }
+ 
+    status = sd_card_information_get(&card_info);
+    if (status != SD_OK) {
+        Stat = STA_NOINIT;
+        return Stat;
+    }
+ 
+    status = sd_card_select_deselect(card_info.card_rca);
+    if (status != SD_OK) {
+        Stat = STA_NOINIT;
+        return Stat;
+    }
+ 
     Stat &= ~(STA_NOINIT | STA_NODISK);
     return Stat;
 }
@@ -67,6 +87,7 @@ DRESULT disk_read(
     sd_error_enum status;
     uint32_t addr;
     UINT i;
+    uint32_t tmp[128];
     
     if (pdrv != 0 || !count) {
         return RES_PARERR;
@@ -85,10 +106,11 @@ DRESULT disk_read(
     /* 逐扇区读取 */
     for (i = 0; i < count; i++) {
         addr = (sector + i) * 512U;
-        status = sd_block_read((uint32_t*)(buff + i * 512), addr, 512);
+        status = sd_block_read(tmp, addr, 512);
         if (status != SD_OK) {
             return RES_ERROR;
         }
+        memcpy(buff + i * 512U, tmp, 512U);
     }
     
     return RES_OK;
@@ -108,6 +130,7 @@ DRESULT disk_write(
     sd_error_enum status;
     uint32_t addr;
     UINT i;
+    uint32_t tmp[128];
     
     if (pdrv != 0 || !count) {
         return RES_PARERR;
@@ -126,7 +149,8 @@ DRESULT disk_write(
     /* 逐扇区写入 */
     for (i = 0; i < count; i++) {
         addr = (sector + i) * 512U;
-        status = sd_block_write((uint32_t*)(buff + i * 512), addr, 512);
+        memcpy(tmp, buff + i * 512U, 512U);
+        status = sd_block_write(tmp, addr, 512);
         if (status != SD_OK) {
             return RES_ERROR;
         }
@@ -164,8 +188,8 @@ DRESULT disk_ioctl(
             return RES_OK;
             
         case GET_SECTOR_COUNT:
-            /* 16GB = 33,554,432 扇区 (512字节/扇区) */
-            *(DWORD*)buff = 33554432UL;
+            /* sd_card_capacity_get() returns KB */
+            *(DWORD*)buff = (DWORD)(sd_card_capacity_get() * 2U);
             return RES_OK;
             
         case GET_SECTOR_SIZE:

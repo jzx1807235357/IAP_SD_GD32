@@ -19,7 +19,9 @@
 #define IAP_BOOT_FLAG_ADDRESS      (RTC_BASE + 0x50U + (IAP_BOOT_RTC_INDEX * 4U))
 
 #define BOOTLOADER_START_ADDRESS   ((uint32_t)0x08000000U)
+#define BOOTLOADER_SIZE            ((uint32_t)0x00010000U)  /* 64KB */
 #define APPLICATION_START_ADDRESS  ((uint32_t)0x08010000U)
+#define APPLICATION_SIZE           ((uint32_t)0x00070000U)  /* 448KB = 512KB - 64KB BootLoader */
 
 /* IAP 数据存储区定义 */
 #define IAP_DATA_FLASH_START       ((uint32_t)0x08008000U)  /* Flash中间区域用于IAP数据 */
